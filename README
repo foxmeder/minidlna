@@ -34,3 +34,10 @@ Prerequisites
 
 
 Justin Maggard
+
+sudo apt-get install build-essential libexif-dev libjpeg-dev libid3tag0-dev libFLAC-dev libvorbis-dev libsqlite3-dev libavformat-dev
+sudo apt-get install autoconf automake
+./autogen.sh
+./configure
+make
+sudo make install
